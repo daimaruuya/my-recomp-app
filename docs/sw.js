@@ -1,4 +1,4 @@
-const CACHE = 'recomp-pwa-v1';
+const CACHE = 'recomp-pwa-v2';
 const APP_FILES = ['./', './index.html', './manifest.json', './icon.svg', './icon-180.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(APP_FILES)).then(() => self.skipWaiting()));
