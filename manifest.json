@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "14日リコンプ｜習慣ログ",
+  "short_name": "リコンプ14日",
+  "description": "14日間のリコンプ習慣を気軽に記録するアプリ",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f4",
+  "theme_color": "#f7f7f4",
+  "icons": [
+    { "src": "./icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
